@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "clean": "bsb -clean-world",
-        "build": "bsb -make-world && mkdir -p js && browserify -r ./src/main.bs.js:main > js/main.js",
+        "build": "bsb -make-world && mkdir -p js && browserify -r ./src/main2.bs.js:main > js/main2.js",
         "watch": "bsb -make-world -w",
         "dev": "webpack-dev-server --open",
         "doc": "mkdir -p doc && ocamldoc -html -d doc src/main.mli"
