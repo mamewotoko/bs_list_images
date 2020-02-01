@@ -1,0 +1,9 @@
+dist: bionic
+install:
+  - bash -x setup.sh
+script:
+  - npm install
+  - npm run build
+os:
+  - linux
+  - osx

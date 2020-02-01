@@ -1,4 +1,4 @@
-bs_list_images ![ci status](https://github.com/mamewotoko/bs_list_images/workflows/CI/badge.svg)
+bs_list_images [![ci status](https://github.com/mamewotoko/bs_list_images/workflows/CI/badge.svg)](https://github.com/mamewotoko/bs_list_images/actions) [![Build Status](https://travis-ci.org/mamewotoko/bs_list_images.svg?branch=master)](https://travis-ci.org/mamewotoko/bs_list_images)
 ========================================================================================
 
 Overview
