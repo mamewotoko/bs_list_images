@@ -1,5 +1,5 @@
-Webブラウザから呼ぶBucklescriptの例 (commonjs)
-===========================================
+XMLHttpRequestのサンプル
+======================
 
 概要
 ----
@@ -29,9 +29,6 @@ npm run build
 実行
 -----
 
-* example1ではjavascriptのコンソールに `hello world` と出力される。
-* example2ではアラートダイアログが出て `hello world!!!` と出力される。
-
 ### 方法1: webpack-dev-serverをつかう
 
 ```
@@ -51,20 +48,6 @@ python3 -m http.server
 
 2. Webブラウザでindex.htmlを閲覧する <http://localhost:8000>
 
-ドキュメント生成
---------------
-
-`src/main.mli` からOcamlのモジュールとしてのドキュメントを作成する。ドキュメントの作成には
-[`ocamldoc`](https://caml.inria.fr/pub/docs/manual-ocaml/ocamldoc.html) を使用する。
-
-
-```
-npm run doc
-```
-
-[`doc/index.html`](doc/index.html) にドキュメントができる。
-
-
 merlin: エディタでの補完、ドキュメント参照
 ---------------------------------------
 
@@ -77,7 +60,7 @@ Emacsの場合
 キー|コマンド|備考
 -----|--------------|--------------
 C-c C-d|merlin-destruct|場合分け
-C-c C-l|merlin-locate|ソースを表示
+C-c C-l|merlin-locate|定義箇所にジャンプする
 C-c i|merlin-document|ocamldocのコメントを表示
 
 詳細
@@ -102,7 +85,7 @@ bucklescript, bs-webapi, ocaml, browserify, commonjs
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
+2   Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
