@@ -29,7 +29,7 @@ jobs:
     - name: collect artifact
       run: |
         mkdir result
-        cp -r index.html js doc result
+        cp -r index.html js image result
     - name: Archive code coverage results
       uses: actions/upload-artifact@v1
       with:
