@@ -1,0 +1,37 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: install libs
+      run: |
+        npm i
+        bash -x .travis-ocaml.sh
+        opam switch create 4.02.3+buckle-master
+      env:
+        OCAML_VERSION: 4.07
+        TRAVIS_OS_NAME: linux
+        TRAVIS_DIST: bionic
+    - name: build javascript
+      run: |
+        npm i
+        npm run build
+    - name: generate documents
+      run: |
+        eval $(opam env)
+        npm run doc
+    - name: collect artifact
+      run: |
+        mkdir result
+        cp -r index.html js doc result
+    - name: Archive code coverage results
+      uses: actions/upload-artifact@v1
+      with:
+        name: output
+        path: result

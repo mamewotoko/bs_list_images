@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+   <meta charset="utf-8" />
+   <meta name="Author" content="Takashi Masuyama" />
+   <meta name="viewport" content="width=device-width" />
+   <!--
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   -->
+   <title>Use event handler written in bs</title>
+   <script src="js/main.js"></script>
+</head>
+  <body>
+    <div id="maindiv"></div>
+    <script>
+      //example1
+      var main = require('main');
+      main.hello();
+
+      //example2
+      main.visible_hello();
+
+      //example3
+      main.hello_again("good night");
+  </script>
+</body></html>
