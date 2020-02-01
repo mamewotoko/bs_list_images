@@ -1,5 +1,5 @@
-XMLHttpRequestのサンプル
-======================
+XMLHttpRequestのサンプル ![ci status](https://github.com/mamewotoko/bs_list_images/workflows/CI/badge.svg)
+=======================================================
 
 概要
 ----

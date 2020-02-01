@@ -1,5 +1,5 @@
-bs_list_images
-===============
+bs_list_images ![ci status](https://github.com/mamewotoko/bs_list_images/workflows/CI/badge.svg)
+========================================================================================
 
 Overview
 ---------
