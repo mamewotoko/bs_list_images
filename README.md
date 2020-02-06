@@ -56,9 +56,9 @@ merlin: completion of function name
 opam install merlin
 ```
 
-Emacsの場合
+In case of Emacs
 
-キー|コマンド|備考
+Key stroke|Command|Action
 -----|--------------|--------------
 C-c C-l|merlin-locate|jump to defintion
 C-c i|merlin-document|display ocamldoc comment
