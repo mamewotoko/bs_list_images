@@ -75,6 +75,12 @@ Detail
   * This option is specified in [package.json](package.json) file.
 * [es6](https://github.com/mamewotoko/bs-quickstart/tree/feature/es6)
 
+
+References
+-----------
+* [ReScript](https://rescript-lang.org/)
+
+
 Keyword
 ---------
 bucklescript, bs-webapi, ocaml, browserify, commonjs
