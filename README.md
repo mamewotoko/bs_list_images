@@ -8,7 +8,7 @@ A sample app to get list of images with XMLHTTPRequest, written in BuckleScript 
 
 List images in the `image` directry.
 
-![demo](doc/list_image.png)
+![demo](doc/list_images.png)
 
 
 Prerequisite
