@@ -6,6 +6,11 @@ Overview
 
 A sample app to get list of images with XMLHTTPRequest, written in BuckleScript (ocaml)
 
+List images in the `image` directry.
+
+![demo](doc/list_image.png)
+
+
 Prerequisite
 ---------------
 

@@ -4,3 +4,4 @@ node_modules
 *.bs.js
 _build
 .DS_Store
+.vagrant/
