@@ -7,15 +7,17 @@
         "clean": "bsb -clean-world",
         "build": "bsb -make-world && mkdir -p js && browserify -r ./src/main2.bs.js:main > js/main2.js",
         "watch": "bsb -make-world -w",
-        "dev": "webpack-dev-server --open",
+        "dev": "webpack-cli serve --mode development",
         "doc": "mkdir -p doc && ocamldoc -html -d doc src/main.mli"
     },
     "author": "Takashi Masuyama <mamewotoko@gmail.com>",
     "license": "Apache-2.0",
     "dependencies": {
-        "browserify": "^16.5.0",
-        "bs-platform": "^5.2.1",
-        "bs-webapi": "^0.15.6",
-        "webpack-dev-server": "^3.1.14"
+        "browserify": "^17.0.0",
+        "bs-platform": "^9.0.2",
+        "bs-webapi": "^0.19.1",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2",
+        "yargs": "^13.3.2"
     }
 }

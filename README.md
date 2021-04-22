@@ -4,7 +4,7 @@ bs_list_images [![ci status](https://github.com/mamewotoko/bs_list_images/workfl
 Overview
 ---------
 
-A sample app to get list of images with XMLHTTPRequest, written in BuckleScritp (ocaml)
+A sample app to get list of images with XMLHTTPRequest, written in BuckleScript (ocaml)
 
 Prerequisite
 ---------------
@@ -95,4 +95,4 @@ License
 
 -----
 Takashi Masuyama < mamewotoko@gmail.com >  
-http://mamewo.ddo.jp/
+http://mamewo.ddo.HP/
